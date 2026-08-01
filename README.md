@@ -20,9 +20,15 @@ Além das perguntas iniciais, a análise avançou para cruzamentos entre variáv
 ## 📊 Principais achados
 
 - **Número de produtos contratados** é o fator mais forte identificado: clientes com 3 ou mais produtos cancelam entre 82,7% e 100% das vezes, contra apenas 7,6% entre quem tem 2 produtos.
+![Cancelamento por número de produtos](imagens/produtos_x_cancelamento.png)
+
 - **Geografia**: clientes na Alemanha cancelam quase o dobro (32,4%) comparado a França e Espanha (~16%). A causa provável é estrutural, 0% das contas alemãs têm saldo zerado, contra ~48% em França e Espanha, e contas com saldo zerado são justamente as que menos cancelam.
+![Cancelamento por país](imagens/geografia_x_cancelamento.png)
+
 - **Atividade do cliente**: clientes inativos cancelam quase o dobro (26,9%) comparado aos ativos (14,3%).
-- **Faixa etária**: clientes entre 51-60 anos apresentam a maior taxa de cancelamento (56,2%), um padrão presente nos três países, a causa exata não foi identificada mesmo após testar outras variáveis como possível explicação.
+- **Faixa etária**: clientes entre 51-60 anos apresentam a maior taxa de cancelamento (56,2%), um padrão presente nos três países — a causa exata não foi identificada mesmo após testar outras variáveis como possível explicação.
+![Cancelamento por faixa etária](imagens/faixa_etaria_x_cancelamento.png)
+
 - O cruzamento entre faixa etária e geografia revelou o segmento de maior risco: **clientes alemães entre 51-60 anos, com quase 70% de taxa de cancelamento.**
 
 Score de crédito, cartão de crédito, tempo como cliente e salário estimado foram testados, mas não mostraram relação relevante com o cancelamento.
@@ -30,9 +36,9 @@ Score de crédito, cartão de crédito, tempo como cliente e salário estimado f
 ## 🛠️ Tecnologias utilizadas
 
 - **Python 3**
-- [`pandas`](https://pandas.pydata.org/) — manipulação e análise dos dados (utilizado na versão 3.0, com colunas de texto representadas como `str`)
-- [`plotly`](https://plotly.com/python/) — visualização interativa dos dados
-- [`Jupyter Notebook`](https://jupyter.org/) — ambiente de desenvolvimento da análise
+- [`pandas`](https://pandas.pydata.org/) - manipulação e análise dos dados (utilizado na versão 3.0, com colunas de texto representadas como `str`)
+- [`plotly`](https://plotly.com/python/) - visualização interativa dos dados
+- [`Jupyter Notebook`](https://jupyter.org/) - ambiente de desenvolvimento da análise
 
 ## 📁 Estrutura do projeto
 
