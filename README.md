@@ -1,4 +1,4 @@
-# Análise de Cancelamento de Clientes — Banco (EDA)
+# Análise de Cancelamento de Clientes - Banco (EDA)
 
 Análise exploratória de dados (EDA) sobre cancelamento de clientes de uma instituição bancária, identificando os principais fatores associados ao churn e propondo ações práticas de retenção com base em evidências.
 
@@ -26,6 +26,8 @@ Além das perguntas iniciais, a análise avançou para cruzamentos entre variáv
 ![Cancelamento por país](imagens/geografia_x_cancelamento.png)
 
 - **Atividade do cliente**: clientes inativos cancelam quase o dobro (26,9%) comparado aos ativos (14,3%).
+![Cancelamento por atividade do cliente](imagens/atividade_x_cancelamento.png)
+
 - **Faixa etária**: clientes entre 51-60 anos apresentam a maior taxa de cancelamento (56,2%), um padrão presente nos três países — a causa exata não foi identificada mesmo após testar outras variáveis como possível explicação.
 ![Cancelamento por faixa etária](imagens/faixa_etaria_x_cancelamento.png)
 
